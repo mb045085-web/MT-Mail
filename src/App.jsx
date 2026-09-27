@@ -3,7 +3,7 @@ import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Copy, RefreshCcw, Mail, Inbox, CheckCircle, Trash2, AlertCircle, ChevronLeft, Plus, Shuffle, X } from 'lucide-react';
 
-const API_BASE = '/api';
+const API_BASE = 'https://api.mail.tm';
 
 function App() {
   const [email, setEmail] = useState('');
